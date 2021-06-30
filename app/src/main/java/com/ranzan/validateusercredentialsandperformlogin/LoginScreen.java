@@ -16,7 +16,7 @@ public class LoginScreen extends AppCompatActivity {
     private EditText email;
     private EditText password;
     private TextView forgot;
-    private String emailVerify = "[a-zA-Z0-9._-]+@[a-z]+\\\\.+[a-z]+";
+    private String emailVerify = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,14 +38,14 @@ public class LoginScreen extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LoginScreen.this, "Your Message", Toast.LENGTH_LONG).show();
+                Toast.makeText(LoginScreen.this, "SignUp not available", Toast.LENGTH_LONG).show();
 
             }
         });
         forgot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LoginScreen.this, "Your Message", Toast.LENGTH_LONG).show();
+                Toast.makeText(LoginScreen.this, "Comming soon..", Toast.LENGTH_LONG).show();
 
             }
         });

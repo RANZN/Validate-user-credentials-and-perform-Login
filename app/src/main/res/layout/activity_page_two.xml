@@ -33,7 +33,8 @@
         android:layout_margin="20dp"
         android:background="@drawable/roundinput"
         android:hint="Email Address"
-        android:padding="20dp" />
+        android:padding="20dp"
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -42,15 +43,17 @@
         android:layout_margin="20dp"
         android:background="@drawable/roundinput"
         android:hint="Password"
-        android:padding="20dp" />
+        android:padding="20dp"
+        android:password="true"
+        android:textColor="@color/black" />
 
     <TextView
         android:id="@+id/tvForgot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Forgot Password?"
         android:padding="10dp"
+        android:text="Forgot Password?"
         android:textStyle="bold" />
 
     <LinearLayout
