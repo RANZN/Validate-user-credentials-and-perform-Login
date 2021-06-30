@@ -38,14 +38,14 @@ public class LoginScreen extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LoginScreen.this,"Your Message", Toast.LENGTH_LONG).show();
+                Toast.makeText(LoginScreen.this, "Your Message", Toast.LENGTH_LONG).show();
 
             }
         });
         forgot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LoginScreen.this,"Your Message", Toast.LENGTH_LONG).show();
+                Toast.makeText(LoginScreen.this, "Your Message", Toast.LENGTH_LONG).show();
 
             }
         });
