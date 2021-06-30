@@ -50,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Forgot Password?"
+        android:padding="10dp"
         android:textStyle="bold" />
 
     <LinearLayout
